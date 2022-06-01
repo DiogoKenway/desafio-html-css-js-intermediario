@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio HTML CSS JS-INTERMEDIÁRIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <section class="container">
+        <section class="section-info">
+            <h2>FICOU COM DÚVIDA?<br> NOS MANDE UMA MENSAGEM!</h2>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </section>
+        <section class="section-form">
+            <form action="#" method="get" id="form">
+                <div class="parent-input">
+                    <input type="text" required id="name" placeholder="Nome Completo *">
+                    <p></p>
+                </div>
+                <div class="parent-input">
+                    <input type="email" required id="email" placeholder="Email *">
+                    <p></p>
+                </div>
+                <div class="parent-input">
+                    <input type="number" required placeholder="Telefone *">
+                    <p></p>
+                </div>
+                <div class="parent-input">
+                    <textarea class="message" required id="message" placeholder="Mensagem *"></textarea>
+                    <p></p>
+                </div>
+                <p class="required-field">*Campos obrigatório</p>
+                <button type="submit" class="btn-submit" id="btn-submit">Enviar</button>
+            </form>
+        </section>
+    </section>
+
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
